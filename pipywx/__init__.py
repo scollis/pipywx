@@ -11,7 +11,7 @@ try:
 except NameError:
     __pipywx_SETUP__ = False
 
-if __pypiwx_SETUP__:
+if __pipywx_SETUP__:
     import sys as _sys
     _sys.stderr.write("Running from pipwx source directory.\n")
     del _sys
