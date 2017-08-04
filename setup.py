@@ -110,7 +110,7 @@ if not release:
     elif os.path.exists('pipywx/version.py'):
         # must be a source distribution, use existing version file
         try:
-            from twitter.version import git_revision as GIT_REVISION
+            from pipywx.version import git_revision as GIT_REVISION
         except ImportError:
             raise ImportError("Unable to import git_revision. Try removing "
                               "pipywx/version.py and the build directory "
