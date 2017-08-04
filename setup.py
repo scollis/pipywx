@@ -90,7 +90,7 @@ if os.path.exists('MANIFEST'):
 builtins.__pipywx_SETUP__ = True
 
 
-def write_version_py(filename='pypiwx/version.py'):
+def write_version_py(filename='pipywx/version.py'):
     cnt = """
 # THIS FILE IS GENERATED FROM PIPYWX SETUP.PY
 short_version = '%(version)s'
